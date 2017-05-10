@@ -21,7 +21,8 @@
     "normalize-css": "^5.0.0",
     "babel-polyfill": "^0.0.1",
     "lazy-imports": "Polymer/lazy-imports#master",
-    "vaadin-grid": "vaadin/vaadin-grid#^2.0.0"
+    "vaadin-grid": "vaadin/vaadin-grid#^2.0.0",
+    "lazy-element": "jay8t6/lazy-element#^0.0.1"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"

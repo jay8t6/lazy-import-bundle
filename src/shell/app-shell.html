@@ -7,6 +7,7 @@
 <link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
 <link rel="import" href="../../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/lazy-element/lazy-element.html">
 <link rel="import" href="../my-icons.html">
 
 <link rel="import" href="../behaviors/app-localize-behavior.html">
@@ -50,6 +51,7 @@
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
           <a name="home" href="/home">View One</a>
           <a name="sub" href="/sub">View Two</a>
+          <lazy-element></lazy-element>
         </iron-selector>
       </app-drawer>
 
